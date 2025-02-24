@@ -147,7 +147,7 @@
 
         underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <4 5 9>;
+            key-positions = <4 5>;
             timeout-ms = <40>;
             require-prior-idle-ms = <50>;
             layers = <0 1 2>;
