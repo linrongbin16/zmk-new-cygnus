@@ -44,7 +44,7 @@ layers:
   - Num
   - Sym
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - {t: Flash, h: to}
+  - {type: none}
   Num:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}

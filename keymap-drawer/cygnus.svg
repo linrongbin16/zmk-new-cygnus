@@ -438,11 +438,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace"/>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key backspace tap glyph mdi:backspace-outline"/>
 </g>
-<g transform="translate(672, 231)" class="key keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Flash">
-<text x="0" y="0" class="key tap layer-activator">Flash</text>
-</a><text x="0" y="24" class="key hold">to</text>
+<g transform="translate(672, 231)" class="key none keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
