@@ -39,12 +39,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {type: none}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - Num
   - Sym
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
   Num:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -66,7 +66,7 @@ layers:
   - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
   - PgUp
-  - $$mdi:mouse-move-up$$
+  - {type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -78,7 +78,7 @@ layers:
   - $$mdi:arrow-down$$
   - End
   - PgDn
-  - $$mdi:mouse-move-down$$
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -111,7 +111,7 @@ layers:
   - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
   - PgUp
-  - $$mdi:mouse-move-up$$
+  - {type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -123,7 +123,7 @@ layers:
   - $$mdi:arrow-down$$
   - End
   - PgDn
-  - $$mdi:mouse-move-down$$
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -256,7 +256,7 @@ combos:
 - p: [7, 8]
   k: '}'
   l: [Alpha, Num, Sym]
-- p: [4, 5]
+- p: [4, 5, 9]
   k: _
   l: [Alpha, Num, Sym]
 - p: [6, 7]
