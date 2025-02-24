@@ -256,7 +256,7 @@ combos:
 - p: [7, 8]
   k: '}'
   l: [Alpha, Num, Sym]
-- p: [4, 5, 9]
+- p: [4, 5]
   k: _
   l: [Alpha, Num, Sym]
 - p: [6, 7]
