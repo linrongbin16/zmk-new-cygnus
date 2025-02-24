@@ -247,7 +247,7 @@ combos:
 - p: [40, 41]
   k: {t: Fun, h: to}
   l: [Alpha, Num, Sym]
-- p: [38, 43]
+- p: [39, 42]
   k: {t: Flash, h: to}
   l: [Alpha, Num, Sym]
 - p: [3, 4]

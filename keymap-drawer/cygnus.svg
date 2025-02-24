@@ -474,12 +474,12 @@ rect.held, rect.combo.held {
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
+<path d="M462,255 l-129,0" class="combo"/>
+<path d="M462,255 l129,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="242" width="28" height="26" class="combo"/>
 <a href="#Flash">
-<text x="462" y="231" class="combo tap layer-activator">Flash</text>
-</a><text x="462" y="242" class="combo hold">to</text>
+<text x="462" y="255" class="combo tap layer-activator">Flash</text>
+</a><text x="462" y="266" class="combo hold">to</text>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
@@ -722,12 +722,12 @@ rect.held, rect.combo.held {
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
+<path d="M462,255 l-129,0" class="combo"/>
+<path d="M462,255 l129,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="242" width="28" height="26" class="combo"/>
 <a href="#Flash">
-<text x="462" y="231" class="combo tap layer-activator">Flash</text>
-</a><text x="462" y="242" class="combo hold">to</text>
+<text x="462" y="255" class="combo tap layer-activator">Flash</text>
+</a><text x="462" y="266" class="combo hold">to</text>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
@@ -959,12 +959,12 @@ rect.held, rect.combo.held {
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
+<path d="M462,255 l-129,0" class="combo"/>
+<path d="M462,255 l129,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="242" width="28" height="26" class="combo"/>
 <a href="#Flash">
-<text x="462" y="231" class="combo tap layer-activator">Flash</text>
-</a><text x="462" y="242" class="combo hold">to</text>
+<text x="462" y="255" class="combo tap layer-activator">Flash</text>
+</a><text x="462" y="266" class="combo hold">to</text>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
