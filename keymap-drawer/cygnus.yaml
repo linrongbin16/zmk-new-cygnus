@@ -39,12 +39,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - $$mdi:keyboard-space$$
   - Num
   - Sym
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - {type: none}
+  - {t: ▽, type: trans}
   Num:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -84,12 +84,12 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '''', s: '"', type: held}
   - '"'
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: ▽, type: trans}
   Sym:
   - '~'
   - '!'
@@ -129,12 +129,12 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '''', s: '"'}
   - {t: '"', type: held}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: ▽, type: trans}
   Fun:
   - {type: none}
   - F1
@@ -174,12 +174,12 @@ layers:
   - '3'
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Alpha, h: to}
   - {t: Alpha, h: to}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: ▽, type: trans}
   Flash:
   - $$mdi:download-circle$$
   - {type: none}
@@ -219,12 +219,12 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Alpha, h: to}
   - {t: Alpha, h: to, type: held}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: ▽, type: trans}
 combos:
 - p: [17, 18]
   k: '['
@@ -247,7 +247,7 @@ combos:
 - p: [40, 41]
   k: {t: Fun, h: to}
   l: [Alpha, Num, Sym]
-- p: [39, 42]
+- p: [38, 43]
   k: {t: Flash, h: to}
   l: [Alpha, Num, Sym]
 - p: [3, 4]

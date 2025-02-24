@@ -417,8 +417,9 @@ rect.held, rect.combo.held {
 <g transform="translate(896, 168)" class="key none keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(252, 231)" class="key none keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(252, 231)" class="key trans keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(314, 255) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -438,8 +439,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace"/>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key backspace tap glyph mdi:backspace-outline"/>
 </g>
-<g transform="translate(672, 231)" class="key none keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(672, 231)" class="key trans keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
@@ -474,12 +476,12 @@ rect.held, rect.combo.held {
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
-<path d="M462,255 l-129,0" class="combo"/>
-<path d="M462,255 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="242" width="28" height="26" class="combo"/>
+<path d="M462,231 l-191,0" class="combo"/>
+<path d="M462,231 l191,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
 <a href="#Flash">
-<text x="462" y="255" class="combo tap layer-activator">Flash</text>
-</a><text x="462" y="266" class="combo hold">to</text>
+<text x="462" y="231" class="combo tap layer-activator">Flash</text>
+</a><text x="462" y="242" class="combo hold">to</text>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
@@ -663,8 +665,9 @@ rect.held, rect.combo.held {
 <g transform="translate(896, 168)" class="key none keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(252, 231)" class="key none keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(252, 231)" class="key trans keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(314, 255) rotate(30.0)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -683,8 +686,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(672, 231)" class="key none keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(672, 231)" class="key trans keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
@@ -719,12 +723,12 @@ rect.held, rect.combo.held {
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
-<path d="M462,255 l-129,0" class="combo"/>
-<path d="M462,255 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="242" width="28" height="26" class="combo"/>
+<path d="M462,231 l-191,0" class="combo"/>
+<path d="M462,231 l191,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
 <a href="#Flash">
-<text x="462" y="255" class="combo tap layer-activator">Flash</text>
-</a><text x="462" y="266" class="combo hold">to</text>
+<text x="462" y="231" class="combo tap layer-activator">Flash</text>
+</a><text x="462" y="242" class="combo hold">to</text>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
@@ -897,8 +901,9 @@ rect.held, rect.combo.held {
 <g transform="translate(896, 168)" class="key none keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(252, 231)" class="key none keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(252, 231)" class="key trans keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(314, 255) rotate(30.0)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -917,8 +922,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(672, 231)" class="key none keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(672, 231)" class="key trans keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
@@ -953,12 +959,12 @@ rect.held, rect.combo.held {
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
-<path d="M462,255 l-129,0" class="combo"/>
-<path d="M462,255 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="242" width="28" height="26" class="combo"/>
+<path d="M462,231 l-191,0" class="combo"/>
+<path d="M462,231 l191,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
 <a href="#Flash">
-<text x="462" y="255" class="combo tap layer-activator">Flash</text>
-</a><text x="462" y="266" class="combo hold">to</text>
+<text x="462" y="231" class="combo tap layer-activator">Flash</text>
+</a><text x="462" y="242" class="combo hold">to</text>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
@@ -1132,8 +1138,9 @@ rect.held, rect.combo.held {
 <g transform="translate(896, 168)" class="key none keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(252, 231)" class="key none keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(252, 231)" class="key trans keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(314, 255) rotate(30.0)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1155,8 +1162,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(672, 231)" class="key none keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(672, 231)" class="key trans keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 </g>
 </g>
@@ -1304,8 +1312,9 @@ rect.held, rect.combo.held {
 <g transform="translate(896, 168)" class="key none keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(252, 231)" class="key none keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(252, 231)" class="key trans keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(314, 255) rotate(30.0)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1327,8 +1336,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(672, 231)" class="key none keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(672, 231)" class="key trans keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 </g>
 </g>
