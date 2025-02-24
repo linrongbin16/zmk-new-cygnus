@@ -39,12 +39,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {type: none}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '''', s: '"'}
   - $$mdi:keyboard-space$$
   - Num
   - Sym
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - $$mdi:apple-keyboard-control$$
+  - '"'
   Num:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
