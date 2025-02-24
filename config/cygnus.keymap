@@ -214,9 +214,9 @@
             flavor = "tap-preferred";
         };
 
-        hml: hrm_lhs {
+        hml: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_LHS";
+            label = "HOMEROW_MODS_LEFT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -224,13 +224,13 @@
             quick-tap-ms = <150>;
             require-prior-idle-ms = <125>;
             flavor = "balanced";
-            hold-trigger-key-positions = <21 22 23 24 25>;
+            hold-trigger-key-positions = <21 22 23 24>;
             hold-trigger-on-release;
         };
 
-        hmr: hrm_rhs {
+        hmr: homerow_mods_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_RHS";
+            label = "HOMEROW_MODS_RIGHT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -238,7 +238,7 @@
             quick-tap-ms = <150>;
             require-prior-idle-ms = <125>;
             flavor = "balanced";
-            hold-trigger-key-positions = <15 16 17 18 14>;
+            hold-trigger-key-positions = <15 16 17 18>;
             hold-trigger-on-release;
         };
 
@@ -268,10 +268,10 @@
 
         Qwer {
             bindings = <
-&kp TAB  &kp Q           &kp W           &kp E               &kp R             &kp T  &kp Y  &kp U              &kp I                &kp O            &kp P               &kp BACKSLASH  &none  &none
-&kp ESC  &hm LEFT_ALT A  &hm LEFT_GUI S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G  &kp H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_GUI L  &hm RIGHT_ALT SEMI  &kp ENTER
-&none    &kp Z           &kp X           &kp C               &kp V             &kp B  &kp N  &kp M              &kp COMMA            &kp DOT          &kp SLASH           &none
-                                         &kp SINGLE_QUOTE    &kp SPACE         &mo 1  &mo 2  &kp BACKSPACE      &kp DOUBLE_QUOTES
+&kp TAB  &kp Q            &kp W            &kp E                &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O             &kp P                &kp BACKSLASH  &none  &none
+&kp ESC  &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
+&none    &kp Z            &kp X            &kp C                &kp V              &kp B  &kp N  &kp M               &kp COMMA             &kp DOT           &kp SLASH            &none
+                                           &kp SINGLE_QUOTE     &kp SPACE          &mo 1  &mo 2  &kp BACKSPACE       &kp DOUBLE_QUOTES
             >;
 
             label = "Qwer";
@@ -279,10 +279,10 @@
 
         Num {
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &none      &none  &none
-&kp ESC    &kp LEFT_ALT  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP       &none              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp ENTER
-&none      &none         &kp HOME        &kp DOWN_ARROW  &kp END          &kp PAGE_DOWN     &none              &none            &none              &none          &none          &none
-                                         &trans          &trans           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &trans
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2              &kp NUMBER_3                &kp NUMBER_4                 &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &none      &none  &none
+&kp ESC    &kp LEFT_ALT  &hml LEFT_GUI LEFT_ARROW  &hml LEFT_CONTROL UP_ARROW  &hml LEFT_SHIFT RIGHT_ARROW  &kp PAGE_UP       &none              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp ENTER
+&none      &none         &kp HOME                  &kp DOWN_ARROW              &kp END                      &kp PAGE_DOWN     &none              &none            &none              &none          &none          &none
+                                                   &trans                      &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &trans
             >;
 
             label = "Num";
@@ -290,10 +290,10 @@
 
         Sym {
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH        &kp DOLLAR       &kp PERCENT       &kp CARET          &kp AMPERSAND    &kp STAR           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none  &none
-&kp ESC    &kp LEFT_ALT     &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP       &none              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI         &kp RIGHT_ALT          &kp ENTER
-&none      &none            &kp HOME        &kp DOWN_ARROW  &kp END          &kp PAGE_DOWN     &none              &none            &none              &none                 &none                  &none
-                                            &trans          &trans           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN               &kp HASH                    &kp DOLLAR                   &kp PERCENT       &kp CARET          &kp AMPERSAND    &kp STAR           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none  &none
+&kp ESC    &kp LEFT_ALT     &hml LEFT_GUI LEFT_ARROW  &hml LEFT_CONTROL UP_ARROW  &hml LEFT_SHIFT RIGHT_ARROW  &kp PAGE_UP       &none              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI         &kp RIGHT_ALT          &kp ENTER
+&none      &none            &kp HOME                  &kp DOWN_ARROW              &kp END                      &kp PAGE_DOWN     &none              &none            &none              &none                 &none                  &none
+                                                      &trans                      &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &trans
             >;
 
             label = "Sym";
