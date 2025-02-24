@@ -150,7 +150,7 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <4 5>;
             timeout-ms = <50>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <80>;
             layers = <0 1 2>;
         };
 
