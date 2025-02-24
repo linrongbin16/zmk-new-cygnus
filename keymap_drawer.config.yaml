@@ -118,31 +118,40 @@ parse_config:
 
   raw_binding_map:
     # Home-row-mods
-    "&hm LEFT_GUI A":
+    "&hml LEFT_ALT A":
       tap: "A"
-      hold: $$mdi:apple-keyboard-command$$
-    "&hm LEFT_ALT S":
-      tap: "S"
       hold: $$mdi:apple-keyboard-option$$
-    "&hm LEFT_CONTROL D":
+    "&hml LEFT_GUI S":
+      tap: "S"
+      hold: $$mdi:apple-keyboard-command$$
+    "&hml LEFT_CONTROL D":
       tap: "D"
       hold: $$mdi:apple-keyboard-control$$
-    "&hm LEFT_SHIFT F":
+    "&hml LEFT_SHIFT F":
       tap: "F"
       hold: $$mdi:apple-keyboard-shift$$
-    "&hm RIGHT_SHIFT J":
+    "&hmr RIGHT_SHIFT J":
       tap: "J"
       hold: $$mdi:apple-keyboard-shift$$
-    "&hm RIGHT_CONTROL K":
+    "&hmr RIGHT_CONTROL K":
       tap: "K"
       hold: $$mdi:apple-keyboard-control$$
-    "&hm RIGHT_ALT L":
+    "&hmr RIGHT_GUI L":
       tap: "L"
-      hold: $$mdi:apple-keyboard-option$$
-    "&hm RIGHT_GUI SEMI":
+      hold: $$mdi:apple-keyboard-command$$
+    "&hmr RIGHT_ALT SEMI":
       shifted: ":"
       tap: ";"
+      hold: $$mdi:apple-keyboard-option$$
+    "&hml LEFT_GUI LEFT_ARROW":
+      tap: $$mdi:arrow-left$$
       hold: $$mdi:apple-keyboard-command$$
+    "&hml LEFT_CONTROL UP_ARROW":
+      tap: $$mdi:arrow-up$$
+      hold: $$mdi:apple-keyboard-control$$
+    "&hml LEFT_SHIFT RIGHT_ARROW":
+      tap: $$mdi:arrow-right$$
+      hold: $$mdi:apple-keyboard-shift$$
 
     # None
     "&none":
