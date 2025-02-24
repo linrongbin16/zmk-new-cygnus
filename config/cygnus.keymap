@@ -280,10 +280,10 @@
 
         Num {
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2             &kp NUMBER_3               &kp NUMBER_4                &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &none      &none  &none
-&kp ESC    &kp LEFT_ALT  &hm LEFT_GUI LEFT_ARROW  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_SHIFT RIGHT_ARROW  &kp PAGE_UP       &msc SCRL_UP       &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp ENTER
-&none      &none         &kp HOME                 &kp DOWN_ARROW             &kp END                     &kp PAGE_DOWN     &msc SCRL_DOWN     &none            &none              &none          &none          &none
-                                                  &none                      &trans                      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &none
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &none      &none  &none
+&kp ESC    &kp LEFT_ALT  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP       &msc SCRL_UP       &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp ENTER
+&none      &none         &kp HOME        &kp DOWN_ARROW  &kp END          &kp PAGE_DOWN     &msc SCRL_DOWN     &none            &none              &none          &none          &none
+                                         &none           &trans           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &none
             >;
 
             label = "Num";
@@ -291,10 +291,10 @@
 
         Sym {
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN              &kp HASH                   &kp DOLLAR                  &kp PERCENT       &kp CARET          &kp AMPERSAND    &kp STAR           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none  &none
-&kp ESC    &kp LEFT_ALT     &hm LEFT_GUI LEFT_ARROW  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_SHIFT RIGHT_ARROW  &kp PAGE_UP       &msc SCRL_UP       &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI         &kp RIGHT_ALT          &kp ENTER
-&none      &none            &kp HOME                 &kp DOWN_ARROW             &kp END                     &kp PAGE_DOWN     &msc SCRL_DOWN     &none            &none              &none                 &none                  &none
-                                                     &none                      &trans                      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &none
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH        &kp DOLLAR       &kp PERCENT       &kp CARET          &kp AMPERSAND    &kp STAR           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none  &none
+&kp ESC    &kp LEFT_ALT     &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP       &msc SCRL_UP       &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI         &kp RIGHT_ALT          &kp ENTER
+&none      &none            &kp HOME        &kp DOWN_ARROW  &kp END          &kp PAGE_DOWN     &msc SCRL_DOWN     &none            &none              &none                 &none                  &none
+                                            &none           &trans           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &none
             >;
 
             label = "Sym";
