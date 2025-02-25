@@ -267,7 +267,7 @@ layers:
   - {type: none}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
-  - Qwer
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {type: none}
 combos:
