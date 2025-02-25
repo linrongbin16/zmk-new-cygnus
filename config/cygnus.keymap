@@ -340,7 +340,7 @@
 &none  &none       &none      &none       &none        &none  &kp K_REDO  &none   &none  &none  &none  &none  &none  &none
 &none  &none       &none      &none       &none        &none  &none       &none   &none  &none  &none  &none
 &none  &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &none  &none       &none   &none  &none  &none  &none
-                              &none       &trans       &to 0  &mo 0       &trans  &none
+                              &none       &trans       &to 0  &to 0       &trans  &none
             >;
 
             label = "Edit";
