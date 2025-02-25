@@ -68,127 +68,113 @@
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <17 18>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <21 22>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <29 30>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <33 34>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <18 19>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <20 21>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         to_fun {
             bindings = <&to 3>;
             key-positions = <40 41>;
-            require-prior-idle-ms = <250>;
-            timeout-ms = <40>;
+            require-prior-idle-ms = <150>;
+            timeout-ms = <38>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         to_flash {
             bindings = <&to 4>;
             key-positions = <38 43>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <3 4>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <7 8>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <4 5>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <6 7>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         less_than {
             bindings = <&kp LESS_THAN>;
             key-positions = <30 31>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
 
         greater_than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <32 33>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <38>;
+            require-prior-idle-ms = <150>;
             layers = <0 1 2>;
-            slow-release;
         };
     };
 
