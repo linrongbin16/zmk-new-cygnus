@@ -265,10 +265,10 @@ layers:
   - {type: none}
   - {type: held alternate}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {t: Qwer, h: to}
   - Qwer
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
 combos:
 - p: [17, 18]
