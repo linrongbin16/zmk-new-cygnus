@@ -419,10 +419,6 @@ parse_config:
       shifted: ")"
 
     # Navigations
-    ESC: Esc
-    ESCAPE: Esc
-    HOME: Home
-    END: End
     PAGE_UP: PgUp
     PAGE_DOWN: PgDn
 
