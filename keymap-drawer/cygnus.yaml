@@ -162,7 +162,7 @@ layers:
   - '6'
   - {type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: none}
+  - $$mdi:apple-keyboard-shift$$
   - F9
   - F10
   - F11
@@ -173,7 +173,7 @@ layers:
   - '2'
   - '3'
   - {type: none}
-  - {type: none}
+  - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
@@ -222,7 +222,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
-  - {t: Qwer, h: to, type: held}
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
