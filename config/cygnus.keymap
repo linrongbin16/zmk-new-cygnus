@@ -315,10 +315,10 @@
 
         Fun {
             bindings = <
-&none    &kp F1  &kp F2   &kp F3   &kp F4   &kp KP_PLUS      &kp KP_MINUS     &kp KP_N7  &kp KP_N8  &kp KP_N9  &none  &none      &none  &none
-&kp ESC  &kp F5  &kp F6   &kp F7   &kp F8   &kp KP_MULTIPLY  &kp KP_DIVIDE    &kp KP_N4  &kp KP_N5  &kp KP_N6  &none  &kp ENTER
-&none    &kp F9  &kp F10  &kp F11  &kp F12  &kp KP_DOT       &kp KP_NUMBER_0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &none  &none
-                          &trans   &trans   &to 0            &to 0            &trans     &trans
+&none           &kp F1  &kp F2   &kp F3   &kp F4   &kp KP_PLUS      &kp KP_MINUS     &kp KP_N7  &kp KP_N8  &kp KP_N9  &none  &none              &none  &none
+&kp ESC         &kp F5  &kp F6   &kp F7   &kp F8   &kp KP_MULTIPLY  &kp KP_DIVIDE    &kp KP_N4  &kp KP_N5  &kp KP_N6  &none  &kp ENTER
+&kp LEFT_SHIFT  &kp F9  &kp F10  &kp F11  &kp F12  &kp KP_DOT       &kp KP_NUMBER_0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &none  &kp RIGHT_CONTROL
+                                 &trans   &trans   &to 0            &to 0            &trans     &trans
             >;
 
             label = "Fun";
@@ -336,12 +336,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        Flash {
-            if-layers = <2 3>;
-            then-layer = <4>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
