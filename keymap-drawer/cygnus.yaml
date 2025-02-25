@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: none}
+  - Edit
   - Z
   - X
   - C
@@ -38,13 +38,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
+  - Edit
   - {type: none}
-  - {t: '''', s: '"'}
   - $$mdi:keyboard-space$$
   - Num
   - Sym
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - '"'
+  - {type: none}
   Num:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -84,12 +84,12 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: '''', s: '"'}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: '''', s: '"', type: held}
   - '"'
   - {t: ▽, type: trans}
-  - '"'
+  - {type: none}
   Sym:
   - '~'
   - '!'
@@ -129,12 +129,12 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: '''', s: '"'}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: '''', s: '"'}
   - {t: '"', type: held}
   - {t: ▽, type: trans}
-  - '"'
+  - {type: none}
   Fun:
   - {type: none}
   - F1
@@ -224,6 +224,51 @@ layers:
   - {t: Qwer, h: to}
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
+  - {type: none}
+  Edit:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - REDO
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held alternate}
+  - {type: none}
+  - {type: none}
+  - {t: Qwer, h: to}
+  - Qwer
+  - {type: none}
   - {type: none}
 combos:
 - p: [17, 18]
