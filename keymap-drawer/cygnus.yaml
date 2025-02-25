@@ -84,12 +84,12 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: ▽, type: trans}
+  - {t: '''', s: '"'}
   - {t: ▽, type: trans}
   - {t: '''', s: '"', type: held}
   - '"'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '"'
   Sym:
   - '~'
   - '!'
@@ -129,12 +129,12 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: ▽, type: trans}
+  - {t: '''', s: '"'}
   - {t: ▽, type: trans}
   - {t: '''', s: '"'}
   - {t: '"', type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '"'
   Fun:
   - {type: none}
   - F1
@@ -174,12 +174,12 @@ layers:
   - '3'
   - {type: none}
   - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
   Boot:
   - $$mdi:download-circle$$
   - {type: none}
@@ -219,12 +219,12 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: ▽, type: trans}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: none}
 combos:
 - p: [17, 18]
   k: '['
