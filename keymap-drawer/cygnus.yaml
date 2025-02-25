@@ -62,9 +62,9 @@ layers:
   - {type: none}
   - Esc
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:arrow-left$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:arrow-right$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
   - PgUp
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
@@ -107,9 +107,9 @@ layers:
   - {type: none}
   - Esc
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:arrow-left$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:arrow-right$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
   - PgUp
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
