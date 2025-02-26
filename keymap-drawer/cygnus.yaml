@@ -226,45 +226,45 @@ layers:
   - {t: ▽, type: trans}
   - {type: none}
 combos:
-- p: [17, 18]
+- p: [17, 16]
   k: '['
-  l: [Qwer, Num, Sym]
-- p: [21, 22]
+  l: [Num, Sym]
+- p: [22, 23]
   k: ']'
-  l: [Qwer, Num, Sym]
-- p: [29, 30]
+  l: [Num, Sym]
+- p: [29, 28]
   k: (
-  l: [Qwer, Num, Sym]
-- p: [33, 34]
+  l: [Num, Sym]
+- p: [34, 35]
   k: )
-  l: [Qwer, Num, Sym]
-- p: [18, 19]
+  l: [Num, Sym]
+- p: [18, 17]
   k: '-'
-  l: [Qwer, Num, Sym]
-- p: [20, 21]
+  l: [Num, Sym]
+- p: [21, 22]
   k: '='
-  l: [Qwer, Num, Sym]
+  l: [Num, Sym]
 - p: [40, 41]
   k: {t: Fun, h: to}
   l: [Qwer, Num, Sym]
 - p: [38, 43]
   k: {t: Boot, h: to}
   l: [Qwer, Num, Sym]
-- p: [3, 4]
+- p: [3, 2]
   k: '{'
-  l: [Qwer, Num, Sym]
-- p: [7, 8]
+  l: [Num, Sym]
+- p: [8, 9]
   k: '}'
-  l: [Qwer, Num, Sym]
-- p: [4, 5]
+  l: [Num, Sym]
+- p: [4, 3]
   k: _
-  l: [Qwer, Num, Sym]
-- p: [6, 7]
+  l: [Num, Sym]
+- p: [7, 8]
   k: +
-  l: [Qwer, Num, Sym]
-- p: [30, 31]
+  l: [Num, Sym]
+- p: [30, 29]
   k: <
-  l: [Qwer, Num, Sym]
-- p: [32, 33]
+  l: [Num, Sym]
+- p: [33, 34]
   k: '>'
-  l: [Qwer, Num, Sym]
+  l: [Num, Sym]
