@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: none}
+  - $$mdi:apple-keyboard-caps$$
   - Z
   - X
   - C
@@ -38,7 +38,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - $$mdi:keyboard-space$$
   - Num
