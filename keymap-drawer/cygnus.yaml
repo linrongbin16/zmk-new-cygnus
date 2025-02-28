@@ -62,9 +62,9 @@ layers:
   - {type: none}
   - ESC
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-up$$
-  - $$mdi:arrow-right$$
+  - {t: '$$mdi:arrow-left$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:arrow-right$$', h: '$$mdi:apple-keyboard-shift$$'}
   - PgUp
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
@@ -72,7 +72,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - {type: none}
   - {type: none}
   - HOME
   - $$mdi:arrow-down$$
@@ -83,13 +83,13 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: '''', s: '"', type: held}
   - '"'
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - {type: none}
   Sym:
   - '~'
   - '!'
@@ -107,9 +107,9 @@ layers:
   - {type: none}
   - ESC
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-up$$
-  - $$mdi:arrow-right$$
+  - {t: '$$mdi:arrow-left$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:arrow-right$$', h: '$$mdi:apple-keyboard-shift$$'}
   - PgUp
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
@@ -117,7 +117,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - {type: none}
   - {type: none}
   - HOME
   - $$mdi:arrow-down$$
@@ -128,13 +128,13 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: '''', s: '"'}
   - {t: '"', type: held}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - {type: none}
   Fun:
   - {type: none}
   - F1
