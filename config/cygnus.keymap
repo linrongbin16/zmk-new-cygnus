@@ -218,7 +218,7 @@
         dcaps: double_caps {
             compatible = "zmk,behavior-mod-morph";
             label = "DOUBLE_CAPS";
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPSLOCK>;
+            bindings = <&kp LEFT_SHIFT>, <&caps_word>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
