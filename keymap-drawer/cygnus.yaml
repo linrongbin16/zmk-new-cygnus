@@ -248,13 +248,9 @@ combos:
   k: '}'
 - p: [18, 19]
   k: _
-  l: [Num, Sym]
 - p: [21, 20]
   k: +
-  l: [Num, Sym]
 - p: [17, 18]
   k: <
-  l: [Num, Sym]
 - p: [21, 22]
   k: '>'
-  l: [Num, Sym]
