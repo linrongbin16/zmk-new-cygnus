@@ -197,7 +197,7 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             flavor = "balanced";
-            hold-trigger-key-positions = <21 22 23 24>;
+            hold-trigger-key-positions = <21 22 23 24 20 25 11 10 9 8 7 6 32 33 35 34 36 37>;
             hold-trigger-on-release;
         };
 
@@ -211,28 +211,29 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             flavor = "balanced";
-            hold-trigger-key-positions = <15 16 17 18>;
+            hold-trigger-key-positions = <15 16 17 18 0 1 2 3 4 5 19 31 30 29 28 27 26 14>;
             hold-trigger-on-release;
         };
 
-        lpar_lt: lparen_lessthan {
+        dcaps: double_caps {
             compatible = "zmk,behavior-mod-morph";
-            label = "LPAREN_LESSTHAN";
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
+            label = "DOUBLE_CAPS";
+            bindings = <&kp LEFT_SHIFT>, <&kp CAPSLOCK>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
-            keep-mods = <(MOD_LSFT)>;
         };
 
-        rpar_gt: rparen_greaterthan {
-            compatible = "zmk,behavior-mod-morph";
-            label = "RPAREN_GREATERTHAN";
-            bindings = <&kp RIGHT_PARENTHESIS>, <&kp GREATER_THAN>;
+        mshft: magic_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MAGIC_SHIFT";
+            bindings = <&dcaps>, <&sk>;
 
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-            keep-mods = <(MOD_LSFT)>;
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            flavor = "balanced";
         };
     };
 
@@ -241,10 +242,10 @@
 
         Qwer {
             bindings = <
-&kp TAB  &kp Q            &kp W            &kp E                &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O             &kp P                &kp BACKSLASH  &none  &none
-&kp ESC  &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
-&none    &kp Z            &kp X            &kp C                &kp V              &kp B  &kp N  &kp M               &kp COMMA             &kp DOT           &kp SLASH            &none
-                                           &none                &kp SPACE          &mo 1  &mo 2  &kp BACKSPACE       &none
+&kp TAB              &kp Q            &kp W            &kp E                &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O             &kp P                &kp BACKSLASH  &none  &none
+&kp ESC              &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
+&mshft 0 LEFT_SHIFT  &kp Z            &kp X            &kp C                &kp V              &kp B  &kp N  &kp M               &kp COMMA             &kp DOT           &kp SLASH            &none
+                                                       &none                &kp SPACE          &mo 1  &mo 2  &kp BACKSPACE       &none
             >;
 
             label = "Qwer";
@@ -252,7 +253,7 @@
 
         Num {
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2              &kp NUMBER_3                &kp NUMBER_4                 &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &kp CAPSLOCK  &none  &none
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2              &kp NUMBER_3                &kp NUMBER_4                 &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &none      &none  &none
 &kp ESC    &kp LEFT_ALT  &hml LEFT_GUI LEFT_ARROW  &hml LEFT_CONTROL UP_ARROW  &hml LEFT_SHIFT RIGHT_ARROW  &kp PAGE_UP       &none              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp ENTER
 &none      &none         &kp HOME                  &kp DOWN_ARROW              &kp END                      &kp PAGE_DOWN     &none              &none            &none              &none          &none          &none
                                                    &none                       &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &none
@@ -263,7 +264,7 @@
 
         Sym {
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN               &kp HASH                    &kp DOLLAR                   &kp PERCENT       &kp CARET          &kp AMPERSAND    &kp STAR           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CAPSLOCK  &none  &none
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN               &kp HASH                    &kp DOLLAR                   &kp PERCENT       &kp CARET          &kp AMPERSAND    &kp STAR           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none  &none
 &kp ESC    &kp LEFT_ALT     &hml LEFT_GUI LEFT_ARROW  &hml LEFT_CONTROL UP_ARROW  &hml LEFT_SHIFT RIGHT_ARROW  &kp PAGE_UP       &none              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI         &kp RIGHT_ALT          &kp ENTER
 &none      &none            &kp HOME                  &kp DOWN_ARROW              &kp END                      &kp PAGE_DOWN     &none              &none            &none              &none                 &none                  &none
                                                       &none                       &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &none
@@ -274,10 +275,10 @@
 
         Fun {
             bindings = <
-&none           &kp F1  &kp F2   &kp F3        &kp F4   &kp KP_PLUS      &kp KP_MINUS     &kp KP_N7  &kp KP_N8      &kp KP_N9  &none  &kp CAPSLOCK       &none  &none
-&kp ESC         &kp F5  &kp F6   &kp F7        &kp F8   &kp KP_MULTIPLY  &kp KP_DIVIDE    &kp KP_N4  &kp KP_N5      &kp KP_N6  &none  &kp ENTER
-&kp LEFT_SHIFT  &kp F9  &kp F10  &kp F11       &kp F12  &kp KP_DOT       &kp KP_NUMBER_0  &kp KP_N1  &kp KP_N2      &kp KP_N3  &none  &kp RIGHT_CONTROL
-                                 &kp LEFT_GUI  &trans   &to 0            &to 0            &trans     &kp RIGHT_ALT
+&none    &kp F1  &kp F2   &kp F3   &kp F4   &kp KP_PLUS      &kp KP_MINUS     &kp KP_N7  &kp KP_N8  &kp KP_N9  &none  &none      &none  &none
+&kp ESC  &kp F5  &kp F6   &kp F7   &kp F8   &kp KP_MULTIPLY  &kp KP_DIVIDE    &kp KP_N4  &kp KP_N5  &kp KP_N6  &none  &kp ENTER
+&none    &kp F9  &kp F10  &kp F11  &kp F12  &kp KP_DOT       &kp KP_NUMBER_0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &none  &none
+                          &none    &trans   &to 0            &to 0            &trans     &none
             >;
 
             label = "Fun";
