@@ -140,7 +140,6 @@
             key-positions = <18 19>;
             timeout-ms = <42>;
             require-prior-idle-ms = <150>;
-            layers = <1 2>;
         };
 
         plus {
@@ -148,7 +147,6 @@
             key-positions = <21 20>;
             timeout-ms = <42>;
             require-prior-idle-ms = <150>;
-            layers = <1 2>;
         };
 
         less_than {
@@ -156,7 +154,6 @@
             key-positions = <17 18>;
             timeout-ms = <42>;
             require-prior-idle-ms = <150>;
-            layers = <1 2>;
         };
 
         greater_than {
@@ -164,7 +161,6 @@
             key-positions = <21 22>;
             timeout-ms = <42>;
             require-prior-idle-ms = <150>;
-            layers = <1 2>;
         };
     };
 
