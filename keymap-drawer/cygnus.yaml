@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: none}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky, s: '$$mdi:apple-keyboard-caps$$'}
   - Z
   - X
   - C
@@ -57,7 +57,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - $$mdi:apple-keyboard-caps$$
+  - {type: none}
   - {type: none}
   - {type: none}
   - ESC
@@ -102,7 +102,7 @@ layers:
   - '*'
   - (
   - )
-  - $$mdi:apple-keyboard-caps$$
+  - {type: none}
   - {type: none}
   - {type: none}
   - ESC
@@ -147,7 +147,7 @@ layers:
   - '8'
   - '9'
   - {type: none}
-  - $$mdi:apple-keyboard-caps$$
+  - {type: none}
   - {type: none}
   - {type: none}
   - ESC
@@ -162,7 +162,7 @@ layers:
   - '6'
   - {type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - {type: none}
   - F9
   - F10
   - F11
@@ -173,13 +173,13 @@ layers:
   - '2'
   - '3'
   - {type: none}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - {type: none}
   Boot:
   - $$mdi:download-circle$$
   - {type: none}
@@ -226,45 +226,31 @@ layers:
   - {t: ▽, type: trans}
   - {type: none}
 combos:
-- p: [17, 16]
+- p: [28, 29]
   k: '['
-  l: [Num, Sym]
-- p: [22, 23]
-  k: ']'
-  l: [Num, Sym]
-- p: [29, 28]
-  k: (
-  l: [Num, Sym]
 - p: [34, 35]
+  k: ']'
+- p: [29, 30]
+  k: (
+- p: [34, 33]
   k: )
-  l: [Num, Sym]
-- p: [18, 17]
+- p: [30, 31]
   k: '-'
-  l: [Num, Sym]
-- p: [21, 22]
+- p: [33, 32]
   k: '='
-  l: [Num, Sym]
 - p: [40, 41]
   k: {t: Fun, h: to}
-  l: [Qwer, Num, Sym]
 - p: [38, 43]
   k: {t: Boot, h: to}
-  l: [Qwer, Num, Sym]
-- p: [3, 2]
+- p: [16, 17]
   k: '{'
-  l: [Num, Sym]
-- p: [8, 9]
+- p: [22, 23]
   k: '}'
-  l: [Num, Sym]
-- p: [4, 3]
+- p: [18, 19]
   k: _
-  l: [Num, Sym]
-- p: [7, 8]
+- p: [21, 20]
   k: +
-  l: [Num, Sym]
-- p: [30, 29]
+- p: [17, 18]
   k: <
-  l: [Num, Sym]
-- p: [33, 34]
+- p: [21, 22]
   k: '>'
-  l: [Num, Sym]
