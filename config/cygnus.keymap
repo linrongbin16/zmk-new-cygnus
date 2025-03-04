@@ -215,15 +215,6 @@
             hold-trigger-on-release;
         };
 
-        mshft: magic_shift {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MAGIC_SHIFT";
-            #binding-cells = <0>;
-            bindings = <&sk LEFT_SHIFT>, <&caps_word>;
-
-            tapping-term-ms = <200>;
-        };
-
         mcaps: magic_capslock {
             compatible = "zmk,behavior-mod-morph";
             label = "MAGIC_CAPSLOCK";
@@ -233,9 +224,9 @@
             mods = <(MOD_LSFT)>;
         };
 
-        mshft2: magic_shift2 {
+        mshft: magic_shift {
             compatible = "zmk,behavior-hold-tap";
-            label = "MAGIC_SHIFT2";
+            label = "MAGIC_SHIFT";
             bindings = <&kp>, <&mcaps>;
 
             #binding-cells = <2>;
@@ -251,10 +242,10 @@
 
         Qwer {
             bindings = <
-&kp TAB               &kp Q            &kp W            &kp E                &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O             &kp P                &kp BACKSLASH  &none  &none
-&kp ESC               &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
-&mshft2 LEFT_SHIFT 0  &kp Z            &kp X            &kp C                &kp V              &kp B  &kp N  &kp M               &kp COMMA             &kp DOT           &kp SLASH            &none
-                                                        &none                &kp SPACE          &mo 1  &mo 2  &kp BACKSPACE       &none
+&kp TAB              &kp Q            &kp W            &kp E                &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O             &kp P                &kp BACKSLASH  &none  &none
+&kp ESC              &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
+&mshft LEFT_SHIFT 0  &kp Z            &kp X            &kp C                &kp V              &kp B  &kp N  &kp M               &kp COMMA             &kp DOT           &kp SLASH            &none
+                                                       &none                &kp SPACE          &mo 1  &mo 2  &kp BACKSPACE       &none
             >;
 
             label = "Qwer";
