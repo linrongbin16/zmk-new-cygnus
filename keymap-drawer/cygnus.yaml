@@ -188,7 +188,7 @@ layers:
   - F4
   - {type: none}
   - {type: none}
-  - '7'
+  - {type: none}
   - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
   - {type: none}
