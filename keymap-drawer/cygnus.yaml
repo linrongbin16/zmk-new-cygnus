@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky, s: '$$mdi:apple-keyboard-caps$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: magic, s: '$$mdi:apple-keyboard-caps$$'}
   - Z
   - X
   - C
