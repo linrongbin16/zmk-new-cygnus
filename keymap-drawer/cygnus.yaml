@@ -139,7 +139,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - '&mkp MCLK'
+  - $$mdi:mouse-scroll-wheel$$
   - {type: none}
   - {type: none}
   - .
@@ -152,9 +152,9 @@ layers:
   - {type: none}
   - ESC
   - {type: none}
-  - '&mkp LCLK'
-  - '&mmv MOVE_UP'
-  - '&mkp RCLK'
+  - $$mdi:mouse-left-click$$
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-up$$'}
+  - $$mdi:mouse-right-click$$
   - $$mdi:mouse-move-up$$
   - {type: none}
   - '4'
@@ -164,9 +164,9 @@ layers:
   - /
   - {type: none}
   - {type: none}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left$$'}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-down$$'}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-right$$'}
   - $$mdi:mouse-move-down$$
   - '0'
   - '1'
