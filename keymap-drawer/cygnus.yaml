@@ -83,7 +83,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: Pad, h: to}
+  - '&numpad'
   - {type: none}
   - {t: ▽, type: trans}
   - {t: '''', s: '"', type: held}
@@ -128,7 +128,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: Pad, h: to}
+  - '&numpad'
   - {type: none}
   - {t: ▽, type: trans}
   - {t: '''', s: '"'}
