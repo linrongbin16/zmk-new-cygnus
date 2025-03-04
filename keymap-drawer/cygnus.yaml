@@ -215,7 +215,7 @@ layers:
   - {type: none}
   - {type: none}
   - $$mdi:play-pause$$
-  - PREVIOUS
+  - $$mdi:skip-backward$$
   - $$mdi:skip-forward$$
   - {type: none}
   - {t: Qwer, h: to}

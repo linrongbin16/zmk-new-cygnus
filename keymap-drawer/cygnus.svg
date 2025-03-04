@@ -1361,7 +1361,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(728, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 75%">PREVIOUS</tspan></text>
+<use href="#mdi:skip-backward" xlink:href="#mdi:skip-backward" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:skip-backward"/>
 </g>
 <g transform="translate(784, 147)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
