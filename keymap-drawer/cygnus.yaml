@@ -284,7 +284,7 @@ combos:
 - p: [33, 32]
   k: '='
 - p: [40, 41]
-  k: {t: Pad, h: to}
+  k: {t: Fun, h: to}
 - p: [38, 43]
   k: {t: Boot, h: to}
 - p: [16, 17]

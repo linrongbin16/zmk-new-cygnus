@@ -481,8 +481,8 @@ rect.held, rect.combo.held {
 <path d="M462,278 l-61,0" class="combo"/>
 <path d="M462,278 l61,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
-<a href="#Pad">
-<text x="462" y="278" class="combo tap layer-activator">Pad</text>
+<a href="#Fun">
+<text x="462" y="278" class="combo tap layer-activator">Fun</text>
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
@@ -727,8 +727,8 @@ rect.held, rect.combo.held {
 <path d="M462,278 l-61,0" class="combo"/>
 <path d="M462,278 l61,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
-<a href="#Pad">
-<text x="462" y="278" class="combo tap layer-activator">Pad</text>
+<a href="#Fun">
+<text x="462" y="278" class="combo tap layer-activator">Fun</text>
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
@@ -962,8 +962,8 @@ rect.held, rect.combo.held {
 <path d="M462,278 l-61,0" class="combo"/>
 <path d="M462,278 l61,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
-<a href="#Pad">
-<text x="462" y="278" class="combo tap layer-activator">Pad</text>
+<a href="#Fun">
+<text x="462" y="278" class="combo tap layer-activator">Fun</text>
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
@@ -1216,8 +1216,8 @@ rect.held, rect.combo.held {
 <path d="M462,278 l-61,0" class="combo"/>
 <path d="M462,278 l61,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
-<a href="#Pad">
-<text x="462" y="278" class="combo tap layer-activator">Pad</text>
+<a href="#Fun">
+<text x="462" y="278" class="combo tap layer-activator">Fun</text>
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
@@ -1448,8 +1448,8 @@ rect.held, rect.combo.held {
 <path d="M462,278 l-61,0" class="combo"/>
 <path d="M462,278 l61,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
-<a href="#Pad">
-<text x="462" y="278" class="combo tap layer-activator">Pad</text>
+<a href="#Fun">
+<text x="462" y="278" class="combo tap layer-activator">Fun</text>
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
@@ -1684,8 +1684,8 @@ rect.held, rect.combo.held {
 <path d="M462,278 l-61,0" class="combo"/>
 <path d="M462,278 l61,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
-<a href="#Pad">
-<text x="462" y="278" class="combo tap layer-activator">Pad</text>
+<a href="#Fun">
+<text x="462" y="278" class="combo tap layer-activator">Fun</text>
 </a><text x="462" y="289" class="combo hold">to</text>
 </g>
 <g class="combo combopos-7">
