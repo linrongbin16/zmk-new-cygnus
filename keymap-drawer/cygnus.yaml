@@ -38,7 +38,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: Pad/Fun, h: to}
+  - {t: Pad, h: to, s: Fun}
   - {type: none}
   - $$mdi:keyboard-space$$
   - {t: '''', h: Num, s: '"'}
@@ -83,7 +83,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: Pad/Fun, h: to}
+  - {t: Pad, h: to, s: Fun}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: '''', s: '"', type: held}
@@ -128,7 +128,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: Pad/Fun, h: to}
+  - {t: Pad, h: to, s: Fun}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: '''', s: '"'}
