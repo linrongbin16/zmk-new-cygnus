@@ -72,7 +72,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: none}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: magic, s: '$$mdi:apple-keyboard-caps$$'}
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
@@ -83,7 +83,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: Pad, h: to}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: '''', s: '"', type: held}
@@ -117,7 +117,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: none}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: magic, s: '$$mdi:apple-keyboard-caps$$'}
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
@@ -128,7 +128,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: Pad, h: to}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: '''', s: '"'}
