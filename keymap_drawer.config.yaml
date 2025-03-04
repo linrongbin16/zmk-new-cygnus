@@ -163,7 +163,8 @@ parse_config:
       # shifted: $$mdi:apple-keyboard-caps$$
       hold: "magic"
     "&numpad":
-      tap: "Pad/Fun"
+      tap: "Pad"
+      shifted: "Fun"
       hold: "to"
 
     # None
