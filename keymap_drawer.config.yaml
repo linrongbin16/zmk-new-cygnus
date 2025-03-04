@@ -154,10 +154,10 @@ parse_config:
       hold: $$mdi:apple-keyboard-shift$$
 
     # Magic keys
-    "&mshft":
+    "&mshft LEFT_SHIFT 0":
       tap: $$mdi:apple-keyboard-shift$$
       shifted: $$mdi:apple-keyboard-caps$$
-      hold: "sticky"
+      hold: "magic"
 
     # None
     "&none":
