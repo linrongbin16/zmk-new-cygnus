@@ -370,7 +370,8 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(28, 168)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;mshft</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-shift"/>
+<text x="0" y="24" class="key hold">magic</text>
 </g>
 <g transform="translate(84, 168)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -417,7 +418,10 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(896, 168)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 86%">&amp;numpad</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Pad/</tspan><tspan x="0" dy="1.2em">Fun</tspan>
+</text>
+<text x="0" y="24" class="key hold">to</text>
 </g>
 <g transform="translate(252, 231)" class="key none keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -623,7 +627,8 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(28, 168)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;mshft</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-shift"/>
+<text x="0" y="24" class="key hold">magic</text>
 </g>
 <g transform="translate(84, 168)" class="key none keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -661,7 +666,10 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(896, 168)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 86%">&amp;numpad</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Pad/</tspan><tspan x="0" dy="1.2em">Fun</tspan>
+</text>
+<text x="0" y="24" class="key hold">to</text>
 </g>
 <g transform="translate(252, 231)" class="key none keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -852,7 +860,8 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(28, 168)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;mshft</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-shift"/>
+<text x="0" y="24" class="key hold">magic</text>
 </g>
 <g transform="translate(84, 168)" class="key none keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -890,7 +899,10 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(896, 168)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 86%">&amp;numpad</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Pad/</tspan><tspan x="0" dy="1.2em">Fun</tspan>
+</text>
+<text x="0" y="24" class="key hold">to</text>
 </g>
 <g transform="translate(252, 231)" class="key none keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
