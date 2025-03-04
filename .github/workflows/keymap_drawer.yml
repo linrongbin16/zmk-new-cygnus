@@ -24,22 +24,6 @@ jobs:
       parse_args: "" # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
       draw_args: "cygnus:'--dts-layout config/boards/shields/cygnus/cygnus-layouts.dtsi'"
       debug_mode: true
-  draw_2_columns:
-    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
-    permissions:
-      contents: write
-    with:
-      commit_message: "[Draw] ${{ github.event.head_commit.message }} (2-columns)"
-      amend_commit: false
-      install_branch: "main"
-      keymap_patterns: "config/*.keymap"
-      json_path: ""
-      config_path: "keymap_drawer_2_cols.config.yaml" # config file, ignored if not exists
-      output_folder: "keymap-drawer-2-cols"
-      destination: "both"
-      parse_args: "" # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
-      draw_args: "cygnus:'--dts-layout config/boards/shields/cygnus/cygnus-layouts.dtsi'"
-      debug_mode: true
   create_png:
     runs-on: ubuntu-latest
     needs:
@@ -62,7 +46,6 @@ jobs:
         run: |
           # Use 5x times density for bigger PNG, by default is 96
           convert -density 480 ./keymap-drawer/cygnus.svg ./keymap-drawer/cygnus.png
-          convert -density 480 ./keymap-drawer-2-cols/cygnus.svg ./keymap-drawer-2-cols/cygnus.png
           echo "git status"
           git status
       - uses: stefanzweifel/git-auto-commit-action@v5
