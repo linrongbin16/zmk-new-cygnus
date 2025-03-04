@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&mshft2'
+  - '&mshft'
   - Z
   - X
   - C
@@ -72,7 +72,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&mshft2'
+  - '&mshft'
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
@@ -117,7 +117,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&mshft2'
+  - '&mshft'
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
