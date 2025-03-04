@@ -43,14 +43,18 @@
     acceleration-exponent = <1>;
 };
 
-&mt {
-    tapping-term-ms = <200>;
-    flavor = "tap-preferred";
-};
-
 &sk {
     release-after-ms = <2000>;
     quick-release;
+};
+
+&lt {
+    hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 16 17 18 30 29 28 19 31>;
+    hold-trigger-on-release;
+    tapping-term-ms = <250>;
+    quick-tap-ms = <175>;
+    require-prior-idle-ms = <150>;
+    flavor = "balanced";
 };
 
 / {
@@ -116,7 +120,7 @@
         };
 
         to_flash {
-            bindings = <&to 4>;
+            bindings = <&to 5>;
             key-positions = <38 43>;
             timeout-ms = <42>;
             require-prior-idle-ms = <150>;
@@ -243,10 +247,10 @@
 
         Qwer {
             bindings = <
-&kp TAB              &kp Q            &kp W            &kp E                &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O             &kp P                &kp BACKSLASH  &none  &none
-&kp ESC              &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
-&mshft LEFT_SHIFT 0  &kp Z            &kp X            &kp C                &kp V              &kp B  &kp N  &kp M               &kp COMMA             &kp DOT           &kp SLASH            &none
-                                                       &none                &kp SPACE          &mo 1  &mo 2  &kp BACKSPACE       &none
+&kp TAB              &kp Q            &kp W            &kp E                &kp R              &kp T               &kp Y                &kp U               &kp I                 &kp O             &kp P                &kp BACKSLASH  &none  &none
+&kp ESC              &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G               &kp H                &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
+&mshft LEFT_SHIFT 0  &kp Z            &kp X            &kp C                &kp V              &kp B               &kp N                &kp M               &kp COMMA             &kp DOT           &kp SLASH            &to 3
+                                                       &none                &kp SPACE          &lt 1 SINGLE_QUOTE  &lt 2 DOUBLE_QUOTES  &kp BACKSPACE       &none
             >;
 
             label = "Qwer";
@@ -254,10 +258,10 @@
 
         Num {
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2              &kp NUMBER_3                &kp NUMBER_4                 &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &none      &none  &none
-&kp ESC    &kp LEFT_ALT  &hml LEFT_GUI LEFT_ARROW  &hml LEFT_CONTROL UP_ARROW  &hml LEFT_SHIFT RIGHT_ARROW  &kp PAGE_UP       &none              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp ENTER
-&none      &none         &kp HOME                  &kp DOWN_ARROW              &kp END                      &kp PAGE_DOWN     &none              &none            &none              &none          &none          &none
-                                                   &none                       &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &none
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3                &kp NUMBER_4         &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &none      &none  &none
+&kp ESC    &kp LEFT_ALT  &hml LEFT_GUI HOME  &hml LEFT_CONTROL UP_ARROW  &hml LEFT_SHIFT END  &kp PAGE_UP       &none              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp ENTER
+&none      &none         &kp LEFT_ARROW      &kp DOWN_ARROW              &kp RIGHT_ARROW      &kp PAGE_DOWN     &none              &none            &none              &none          &none          &none
+                                             &none                       &trans               &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &none
             >;
 
             label = "Num";
@@ -265,24 +269,34 @@
 
         Sym {
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN               &kp HASH                    &kp DOLLAR                   &kp PERCENT       &kp CARET          &kp AMPERSAND    &kp STAR           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none  &none
-&kp ESC    &kp LEFT_ALT     &hml LEFT_GUI LEFT_ARROW  &hml LEFT_CONTROL UP_ARROW  &hml LEFT_SHIFT RIGHT_ARROW  &kp PAGE_UP       &none              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI         &kp RIGHT_ALT          &kp ENTER
-&none      &none            &kp HOME                  &kp DOWN_ARROW              &kp END                      &kp PAGE_DOWN     &none              &none            &none              &none                 &none                  &none
-                                                      &none                       &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &none
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN         &kp HASH                    &kp DOLLAR           &kp PERCENT       &kp CARET          &kp AMPERSAND    &kp STAR           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none  &none
+&kp ESC    &kp LEFT_ALT     &hml LEFT_GUI HOME  &hml LEFT_CONTROL UP_ARROW  &hml LEFT_SHIFT END  &kp PAGE_UP       &none              &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI         &kp RIGHT_ALT          &kp ENTER
+&none      &none            &kp LEFT_ARROW      &kp DOWN_ARROW              &kp RIGHT_ARROW      &kp PAGE_DOWN     &none              &none            &none              &none                 &none                  &none
+                                                &none                       &trans               &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans           &none
             >;
 
             label = "Sym";
         };
 
-        Fun {
+        Pad {
             bindings = <
-&none    &kp F1  &kp F2   &kp F3   &kp F4   &msc SCRL_UP    &msc SCRL_UP     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS      &kp KP_MINUS   &none  &none
-&kp ESC  &kp F5  &kp F6   &kp F7   &kp F8   &msc SCRL_DOWN  &msc SCRL_DOWN   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MULTIPLY  &kp KP_DIVIDE
-&none    &kp F9  &kp F10  &kp F11  &kp F12  &kp KP_DOT      &kp KP_NUMBER_0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT       &none
-                          &none    &trans   &to 0           &to 0            &trans     &none
+&none    &none  &none           &mkp MCLK       &none            &none           &kp KP_DOT       &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS      &kp KP_MINUS   &none  &none
+&kp ESC  &none  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP    &none            &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MULTIPLY  &kp KP_DIVIDE
+&none    &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &kp KP_NUMBER_0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_EQUAL     &to 0
+                                &none           &trans           &to 0           &to 0            &trans     &none
             >;
 
+            label = "Pad";
+        };
+
+        Fun {
             label = "Fun";
+            bindings = <
+&none    &kp F1  &kp F2   &kp F3   &kp F4   &none  &none  &kp KP_N7         &kp C_BRI_DN       &kp C_BRI_UP     &none  &none      &none  &none
+&kp ESC  &kp F5  &kp F6   &kp F7   &kp F8   &none  &none  &kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none  &kp ENTER
+&none    &kp F9  &kp F10  &kp F11  &kp F12  &none  &none  &kp C_PLAY_PAUSE  &kp C_PREVIOUS     &kp C_NEXT       &none  &none
+                          &none    &trans   &to 0  &to 0  &trans            &none
+            >;
         };
 
         Boot {
