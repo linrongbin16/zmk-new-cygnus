@@ -1,5 +1,5 @@
 draw_config:
-  n_columns: 1
+  n_columns: 2
   key_w: 60.0
   key_h: 56.0
   split_gap: 30.0
