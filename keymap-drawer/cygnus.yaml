@@ -38,11 +38,11 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {type: none}
+  - {t: Pad, h: to}
   - {type: none}
   - $$mdi:keyboard-space$$
-  - Num
-  - Sym
+  - {t: '''', h: Num, s: '"'}
+  - {t: '"', h: Sym}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {type: none}
   Num:
@@ -62,9 +62,9 @@ layers:
   - {type: none}
   - ESC
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:arrow-left$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: HOME, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:arrow-right$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
   - PgUp
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
@@ -74,9 +74,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - {type: none}
-  - HOME
+  - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
-  - END
+  - $$mdi:arrow-right$$
   - PgDn
   - {type: none}
   - {type: none}
@@ -107,9 +107,9 @@ layers:
   - {type: none}
   - ESC
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:arrow-left$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: HOME, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:arrow-right$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
   - PgUp
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
@@ -119,9 +119,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - {type: none}
-  - HOME
+  - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
-  - END
+  - $$mdi:arrow-right$$
   - PgDn
   - {type: none}
   - {type: none}
@@ -135,14 +135,14 @@ layers:
   - {t: '"', type: held}
   - {t: ▽, type: trans}
   - {type: none}
-  Fun:
+  Pad:
   - {type: none}
-  - F1
-  - F2
-  - F3
-  - F4
-  - $$mdi:mouse-move-up$$
-  - $$mdi:mouse-move-up$$
+  - {type: none}
+  - {type: none}
+  - '&mkp MCLK'
+  - {type: none}
+  - {type: none}
+  - .
   - '7'
   - '8'
   - '9'
@@ -151,28 +151,73 @@ layers:
   - {type: none}
   - {type: none}
   - ESC
-  - F5
-  - F6
-  - F7
-  - F8
-  - $$mdi:mouse-move-down$$
-  - $$mdi:mouse-move-down$$
+  - {type: none}
+  - '&mkp LCLK'
+  - '&mmv MOVE_UP'
+  - '&mkp RCLK'
+  - $$mdi:mouse-move-up$$
+  - {type: none}
   - '4'
   - '5'
   - '6'
   - '*'
   - /
   - {type: none}
-  - F9
-  - F10
-  - F11
-  - F12
-  - .
+  - {type: none}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - $$mdi:mouse-move-down$$
   - '0'
   - '1'
   - '2'
   - '3'
-  - .
+  - KP EQUAL
+  - {t: Qwer, h: to}
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
+  - {t: ▽, type: trans}
+  - {type: none}
+  Fun:
+  - {type: none}
+  - F1
+  - F2
+  - F3
+  - F4
+  - {type: none}
+  - {type: none}
+  - '7'
+  - $$mdi:brightness-4$$
+  - $$mdi:brightness-5$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - ESC
+  - F5
+  - F6
+  - F7
+  - F8
+  - {type: none}
+  - {type: none}
+  - $$mdi:volume-mute$$
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
+  - {type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: none}
+  - F9
+  - F10
+  - F11
+  - F12
+  - {type: none}
+  - {type: none}
+  - $$mdi:play-pause$$
+  - PREVIOUS
+  - $$mdi:skip-forward$$
+  - {type: none}
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
@@ -239,7 +284,7 @@ combos:
 - p: [33, 32]
   k: '='
 - p: [40, 41]
-  k: {t: Fun, h: to}
+  k: {t: Pad, h: to}
 - p: [38, 43]
   k: {t: Boot, h: to}
 - p: [16, 17]
