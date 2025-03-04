@@ -141,13 +141,13 @@ layers:
   - F2
   - F3
   - F4
-  - +
-  - '-'
+  - $$mdi:mouse-move-up$$
+  - $$mdi:mouse-move-up$$
   - '7'
   - '8'
   - '9'
-  - {type: none}
-  - {type: none}
+  - +
+  - '-'
   - {type: none}
   - {type: none}
   - ESC
@@ -155,13 +155,13 @@ layers:
   - F6
   - F7
   - F8
-  - '*'
-  - /
+  - $$mdi:mouse-move-down$$
+  - $$mdi:mouse-move-down$$
   - '4'
   - '5'
   - '6'
-  - {type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '*'
+  - /
   - {type: none}
   - F9
   - F10
@@ -172,7 +172,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {type: none}
+  - .
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
