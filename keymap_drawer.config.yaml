@@ -173,6 +173,8 @@ parse_config:
       tap: "*"
     "&kp KP_DIVIDE":
       tap: "/"
+    "&kp KP_EQUAL":
+      tap: "="
     "&kp KP_DOT":
       tap: "."
     "&kp KP_NUMBER_0":
