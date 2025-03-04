@@ -172,7 +172,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - KP EQUAL
+  - '='
   - {t: Qwer, h: to}
   - {type: none}
   - {t: ▽, type: trans}
