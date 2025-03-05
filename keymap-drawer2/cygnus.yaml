@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: cygnus}
 layers:
   Qwer:
-  - TAB
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -12,22 +12,22 @@ layers:
   - I
   - O
   - P
-  - \
-  - ''
-  - ''
+  - {t: \, s: '|'}
+  - {type: none}
+  - {type: none}
   - ESC
-  - {t: A, h: LEFT ALT}
-  - {t: S, h: LEFT GUI}
-  - {t: D, h: LEFT CONTROL}
-  - {t: F, h: LEFT SHIFT}
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT CONTROL}
-  - {t: L, h: RIGHT GUI}
-  - {t: ;, h: RIGHT ALT}
-  - ENTER
-  - '&mshft'
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: magic}
   - Z
   - X
   - C
@@ -35,61 +35,61 @@ layers:
   - B
   - N
   - M
-  - ','
-  - .
-  - /
-  - '&numpad'
-  - ''
-  - SPACE
-  - {t: '''', h: Num}
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:gamepad$$', h: to}
+  - {type: none}
+  - $$mdi:keyboard-space$$
+  - {t: '''', h: Num, s: '"'}
   - {t: '"', h: Sym}
-  - BACKSPACE
-  - ''
+  - {t: '$$mdi:backspace-outline$$', type: backspace}
+  - {type: none}
   Num:
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ''
-  - ''
-  - ''
+  - {t: '`', s: '~'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - ESC
-  - LEFT ALT
-  - {t: HOME, h: LEFT GUI}
-  - {t: UP ARROW, h: LEFT CONTROL}
-  - {t: END, h: LEFT SHIFT}
-  - PAGE UP
-  - ''
-  - RIGHT SHIFT
-  - RIGHT CONTROL
-  - RIGHT GUI
-  - RIGHT ALT
-  - ENTER
-  - '&mshft'
-  - ''
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - PAGE DOWN
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&numpad'
-  - ''
+  - $$mdi:apple-keyboard-option$$
+  - {t: HOME, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
+  - PgUp
+  - {type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: magic}
+  - {type: none}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - PgDn
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: '$$mdi:gamepad$$', h: to}
+  - {type: none}
   - {t: ▽, type: trans}
-  - {t: '''', type: held}
+  - {t: '''', s: '"', type: held}
   - '"'
   - {t: ▽, type: trans}
-  - ''
+  - {type: none}
   Sym:
   - '~'
   - '!'
@@ -102,174 +102,174 @@ layers:
   - '*'
   - (
   - )
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - ESC
-  - LEFT ALT
-  - {t: HOME, h: LEFT GUI}
-  - {t: UP ARROW, h: LEFT CONTROL}
-  - {t: END, h: LEFT SHIFT}
-  - PAGE UP
-  - ''
-  - RIGHT SHIFT
-  - RIGHT CONTROL
-  - RIGHT GUI
-  - RIGHT ALT
-  - ENTER
-  - '&mshft'
-  - ''
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - PAGE DOWN
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&numpad'
-  - ''
+  - $$mdi:apple-keyboard-option$$
+  - {t: HOME, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
+  - PgUp
+  - {type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: magic}
+  - {type: none}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - PgDn
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: '$$mdi:gamepad$$', h: to}
+  - {type: none}
   - {t: ▽, type: trans}
-  - ''''
+  - {t: '''', s: '"'}
   - {t: '"', type: held}
   - {t: ▽, type: trans}
-  - ''
+  - {type: none}
   Pad:
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - KP DOT
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP PLUS
-  - KP MINUS
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:mouse-scroll-wheel$$
+  - {type: none}
+  - {type: none}
+  - .
+  - '7'
+  - '8'
+  - '9'
+  - +
+  - '-'
+  - {type: none}
+  - {type: none}
   - ESC
-  - ''
-  - '&mkp LCLK'
-  - '&mmv MOVE_UP'
-  - '&mkp RCLK'
-  - '&msc SCRL_UP'
-  - ''
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP MULTIPLY
-  - KP DIVIDE
-  - ''
-  - ''
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&msc SCRL_DOWN'
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP EQUAL
-  - {t: Qwer, h: toggle}
-  - ''
+  - {type: none}
+  - $$mdi:mouse-left-click$$
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-up$$'}
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-move-up$$
+  - {type: none}
+  - '4'
+  - '5'
+  - '6'
+  - '*'
+  - /
+  - {type: none}
+  - {type: none}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left$$'}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-down$$'}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-right$$'}
+  - $$mdi:mouse-move-down$$
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - {t: Qwer, h: to}
+  - {type: none}
   - {t: ▽, type: trans}
-  - {t: Qwer, h: toggle}
-  - {t: Qwer, h: toggle}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
-  - ''
+  - {type: none}
   Fun:
-  - ''
+  - {type: none}
   - F1
   - F2
   - F3
   - F4
-  - ''
-  - ''
-  - ''
-  - BRI DN
-  - BRI UP
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:brightness-4$$
+  - $$mdi:brightness-5$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - ESC
   - F5
   - F6
   - F7
   - F8
-  - ''
-  - ''
-  - MUTE
-  - VOLUME DOWN
-  - VOLUME UP
-  - ''
-  - ENTER
-  - ''
+  - {type: none}
+  - {type: none}
+  - $$mdi:volume-mute$$
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
+  - {type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: none}
   - F9
   - F10
   - F11
   - F12
-  - ''
-  - ''
-  - PLAY PAUSE
-  - PREVIOUS
-  - NEXT
-  - ''
-  - {t: Qwer, h: toggle}
-  - ''
+  - {type: none}
+  - {type: none}
+  - $$mdi:play-pause$$
+  - $$mdi:skip-backward$$
+  - $$mdi:skip-forward$$
+  - {type: none}
+  - {t: Qwer, h: to}
+  - {type: none}
   - {t: ▽, type: trans}
-  - {t: Qwer, h: toggle}
-  - {t: Qwer, h: toggle}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
-  - ''
+  - {type: none}
   Boot:
-  - '&dongle_bootload_macro'
-  - ''
-  - ''
-  - BRIGHTNESS DEC
-  - BRIGHTNESS INC
-  - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - OUT TOG
-  - ''
-  - ''
-  - ''
-  - ''
-  - MUTE
-  - VOLUME DOWN
-  - VOLUME UP
-  - ''
-  - ''
-  - BT CLR
-  - BT PRV
-  - BT NXT
-  - ''
-  - ''
-  - ''
-  - ''
-  - PLAY PAUSE
-  - PREV
-  - NEXT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: Qwer, h: toggle}
-  - ''
+  - $$mdi:download-circle$$
+  - {type: none}
+  - {type: none}
+  - $$mdi:brightness-4$$
+  - $$mdi:brightness-5$$
+  - {type: none}
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:volume-mute$$
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
+  - {type: none}
+  - {type: none}
+  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-left$$'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-right$$'}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:play-pause$$
+  - $$mdi:skip-backward$$
+  - $$mdi:skip-forward$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: Qwer, h: to}
+  - {type: none}
   - {t: ▽, type: trans}
-  - {t: Qwer, h: toggle}
-  - {t: Qwer, h: toggle}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
-  - ''
+  - {type: none}
 combos:
 - p: [28, 29]
   k: '['
@@ -284,7 +284,7 @@ combos:
 - p: [33, 32]
   k: '='
 - p: [38, 43]
-  k: {t: Boot, h: toggle}
+  k: {t: Boot, h: to}
 - p: [16, 17]
   k: '{'
 - p: [22, 23]
