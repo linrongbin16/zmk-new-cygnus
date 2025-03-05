@@ -165,11 +165,11 @@ parse_config:
     "&as QUESTION SLASH":
       tap: "/"
       shifted: "?"
-      hold: "auto-shift"
+      hold: "autoshft"
     "&as PIPE BACKSLASH":
       tap: '\'
       shifted: "|"
-      hold: "auto-shift"
+      hold: "autoshft"
 
     # Magic keys
     # "&mshft LEFT_SHIFT 0":
