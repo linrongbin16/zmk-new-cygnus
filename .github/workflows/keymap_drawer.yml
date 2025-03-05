@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - ".github/workflows/keymap_draser.yml"
-      - "keymap_drawer.config.yaml"
+      - ".github/workflows/keymap_drawer.yml"
+      - "keymap_drawer.yaml"
       - "config/**"
 
 jobs:
@@ -13,10 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          cp keymap_drawer.yaml keymap_drawer1.yaml
-          sed -i '8i \  n_columns: 1' keymap_drawer1.yaml
+          cp keymap_drawer.yaml .keymap_drawer1.yaml
+          sed -i '2i \  n_columns: 1' .keymap_drawer1.yaml
           cp keymap_drawer.yaml keymap_drawer2.yaml
-          sed -i '8i \  n_columns: 2' keymap_drawer2.yaml
+          sed -i '2i \  n_columns: 2' .keymap_drawer2.yaml
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(drawer): auto-create drawer configs"
@@ -33,7 +33,7 @@ jobs:
       install_branch: "main"
       keymap_patterns: "config/*.keymap"
       json_path: ""
-      config_path: "keymap_drawer1.yaml" # config file, ignored if not exists
+      config_path: ".keymap_drawer1.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer"
       destination: "both"
       artifact_name: "drawings"
@@ -52,7 +52,7 @@ jobs:
       install_branch: "main"
       keymap_patterns: "config/*.keymap"
       json_path: ""
-      config_path: "keymap_drawer2.yaml" # config file, ignored if not exists
+      config_path: ".keymap_drawer2.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer2"
       destination: "both"
       artifact_name: "drawings2"
