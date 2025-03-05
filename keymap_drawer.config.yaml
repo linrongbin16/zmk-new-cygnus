@@ -161,16 +161,6 @@ parse_config:
       tap: $$mdi:arrow-right$$
       hold: $$mdi:apple-keyboard-shift$$
 
-    # Auto shift
-    "&as QUESTION SLASH":
-      tap: "/"
-      shifted: "?"
-      hold: "autoshft"
-    "&as PIPE BACKSLASH":
-      tap: '\'
-      shifted: "|"
-      hold: "autoshft"
-
     # Magic keys
     # "&mshft LEFT_SHIFT 0":
     #   tap: $$mdi:apple-keyboard-shift$$
