@@ -24,10 +24,43 @@ jobs:
       parse_args: "" # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
       draw_args: "cygnus:'--dts-layout config/boards/shields/cygnus/cygnus-layouts.dtsi'"
       debug_mode: true
-  create_png:
+  prepare_draw2:
     runs-on: ubuntu-latest
     needs:
       - draw
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          cp keymap_drawer.config.yaml .keymap_drawer2.config.yaml
+  draw2:
+    needs:
+      - prepare_draw2
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write
+    with:
+      commit_message: "[Draw] ${{ github.event.head_commit.message }}"
+      amend_commit: false
+      install_branch: "main"
+      keymap_patterns: "config/*.keymap"
+      json_path: ""
+      config_path: "keymap_drawer.config.yaml" # config file, ignored if not exists
+      output_folder: "keymap-drawer"
+      destination: "both"
+      parse_args: "" # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
+      draw_args: "cygnus:'--dts-layout config/boards/shields/cygnus/cygnus-layouts.dtsi'"
+      debug_mode: true
+  finish_draw2:
+    runs-on: ubuntu-latest
+    needs:
+      - draw2
+    steps:
+      - run: |
+          rm .yaml .keymap_drawer2.config.yaml
+  create_png:
+    runs-on: ubuntu-latest
+    needs:
+      - finish_draw2
     steps:
       - name: Install PNG Image Tools
         run: |
