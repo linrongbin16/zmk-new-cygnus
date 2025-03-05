@@ -18,12 +18,12 @@ jobs:
       - run: |
           cp keymap_drawer.yaml .keymap_drawer1.yaml
           sed -i '2i \  n_columns: 1' .keymap_drawer1.yaml
-          cp keymap_drawer.yaml keymap_drawer2.yaml
+          cp keymap_drawer.yaml .keymap_drawer2.yaml
           sed -i '2i \  n_columns: 2' .keymap_drawer2.yaml
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(drawer): auto-create drawer configs"
-          file_pattern: "keymap_drawer1.yaml keymap_drawer2.yaml"
+          file_pattern: ".keymap_drawer1.yaml .keymap_drawer2.yaml"
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     needs:
