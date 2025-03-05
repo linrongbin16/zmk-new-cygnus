@@ -36,6 +36,7 @@ jobs:
       config_path: "keymap_drawer1.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer"
       destination: "both"
+      artifact_name: "drawings"
       parse_args: "" # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
       draw_args: "cygnus:'--dts-layout config/boards/shields/cygnus/cygnus-layouts.dtsi'"
       debug_mode: true
@@ -54,6 +55,7 @@ jobs:
       config_path: "keymap_drawer2.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer2"
       destination: "both"
+      artifact_name: "drawings2"
       parse_args: "" # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
       draw_args: "cygnus:'--dts-layout config/boards/shields/cygnus/cygnus-layouts.dtsi'"
       debug_mode: true
