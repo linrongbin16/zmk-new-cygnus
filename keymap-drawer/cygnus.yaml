@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - {type: none}
   - {type: none}
   - {type: none}
   - ESC
@@ -37,14 +37,14 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:gamepad$$', h: to}
   - {type: none}
+  - {t: '$$mdi:gamepad$$', h: to}
+  - {t: /, h: '?', s: '?'}
   - $$mdi:keyboard-space$$
   - {t: '''', h: Num, s: '"'}
   - {t: '"', h: Sym}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - {type: none}
+  - {t: \, h: '|', s: '|'}
   Num:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -84,12 +84,12 @@ layers:
   - {type: none}
   - {type: none}
   - {t: '$$mdi:gamepad$$', h: to}
-  - {type: none}
+  - {t: /, h: '?', s: '?'}
   - {t: ▽, type: trans}
   - {t: '''', s: '"', type: held}
   - '"'
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: \, h: '|', s: '|'}
   Sym:
   - '~'
   - '!'
@@ -129,12 +129,12 @@ layers:
   - {type: none}
   - {type: none}
   - {t: '$$mdi:gamepad$$', h: to}
-  - {type: none}
+  - {t: /, h: '?', s: '?'}
   - {t: ▽, type: trans}
   - {t: '''', s: '"'}
   - {t: '"', type: held}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: \, h: '|', s: '|'}
   Pad:
   - {type: none}
   - {type: none}
