@@ -90,4 +90,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(png): auto-create png image"
-          file_pattern: "keymap-drawer/cygnus.png"
+          file_pattern: "keymap-drawer/cygnus.png keymap-drawer2/cygnus.png"
