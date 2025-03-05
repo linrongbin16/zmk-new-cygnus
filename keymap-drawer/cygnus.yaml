@@ -273,27 +273,40 @@ layers:
 combos:
 - p: [28, 29]
   k: '['
+  l: [Qwer, Num, Sym]
 - p: [34, 35]
   k: ']'
+  l: [Qwer, Num, Sym]
 - p: [29, 30]
   k: (
+  l: [Qwer, Num, Sym]
 - p: [34, 33]
   k: )
+  l: [Qwer, Num, Sym]
 - p: [30, 31]
   k: '-'
+  l: [Qwer, Num, Sym]
 - p: [33, 32]
   k: '='
+  l: [Qwer, Num, Sym]
 - p: [38, 43]
   k: {t: Boot, h: to}
+  l: [Qwer, Num, Sym]
 - p: [16, 17]
   k: '{'
+  l: [Qwer, Num, Sym]
 - p: [22, 23]
   k: '}'
+  l: [Qwer, Num, Sym]
 - p: [18, 19]
   k: _
+  l: [Qwer, Num, Sym]
 - p: [21, 20]
   k: +
+  l: [Qwer, Num, Sym]
 - p: [17, 18]
   k: <
+  l: [Qwer, Num, Sym]
 - p: [21, 22]
   k: '>'
+  l: [Qwer, Num, Sym]
