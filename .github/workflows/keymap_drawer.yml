@@ -23,6 +23,8 @@ jobs:
           file_pattern: "keymap_drawer1.yaml keymap_drawer2.yaml"
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    needs:
+      - prepare
     permissions:
       contents: write
     with:
