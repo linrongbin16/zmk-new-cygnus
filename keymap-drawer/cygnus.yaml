@@ -41,8 +41,8 @@ layers:
   - {t: '$$mdi:gamepad$$', h: to}
   - {t: /, h: '?', s: '?'}
   - $$mdi:keyboard-space$$
-  - {t: '''', h: Num, s: '"'}
-  - {t: '"', h: Sym}
+  - Num
+  - Sym
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: \, h: '|', s: '|'}
   Num:
