@@ -37,9 +37,9 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {type: none}
-  - {t: '$$mdi:gamepad$$', h: to}
   - {t: /, h: '?', s: '?'}
+  - {t: '$$mdi:gamepad$$', h: to}
+  - {t: '''', h: '"', s: '"'}
   - $$mdi:keyboard-space$$
   - Num
   - Sym
@@ -84,7 +84,7 @@ layers:
   - {type: none}
   - {type: none}
   - {t: '$$mdi:gamepad$$', h: to}
-  - {t: /, h: '?', s: '?'}
+  - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
   - {t: '''', s: '"', type: held}
   - '"'
@@ -129,7 +129,7 @@ layers:
   - {type: none}
   - {type: none}
   - {t: '$$mdi:gamepad$$', h: to}
-  - {t: /, h: '?', s: '?'}
+  - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
   - {t: '''', s: '"'}
   - {t: '"', type: held}
