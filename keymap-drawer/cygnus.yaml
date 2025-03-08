@@ -41,8 +41,8 @@ layers:
   - {t: Fun, h: to}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:keyboard-space$$
-  - '&monum'
-  - '&mosym'
+  - {t: Num, h: magic}
+  - {t: Sym, h: magic}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: \, h: '|', s: '|'}
   Num:
