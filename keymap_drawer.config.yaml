@@ -172,6 +172,13 @@ parse_config:
     "&numpad":
       tap: $$mdi:gamepad$$
       hold: "to"
+    "&monum":
+      tap: "Num"
+      hold: "magic"
+    "&mosym":
+      tap: "Sym"
+      hold: "magic"
+      
 
     # Mouse
     "&mkp LCLK":
