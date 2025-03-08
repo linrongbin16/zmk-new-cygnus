@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: magic}
+  - $$mdi:apple-keyboard-caps$$
   - Z
   - X
   - C
@@ -38,7 +38,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - {t: '$$mdi:gamepad$$', h: to}
+  - {t: Fun, h: to}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:keyboard-space$$
   - Num
@@ -66,24 +66,24 @@ layers:
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
   - PgUp
-  - {type: none}
+  - $$mdi:mouse-move-up$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: magic}
+  - {type: none}
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
   - PgDn
+  - $$mdi:mouse-move-down$$
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: '$$mdi:gamepad$$', h: to}
   - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
   - {t: '''', s: '"', type: held}
@@ -111,36 +111,36 @@ layers:
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
   - PgUp
-  - {type: none}
+  - $$mdi:mouse-move-up$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: magic}
+  - {type: none}
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
   - PgDn
+  - $$mdi:mouse-move-down$$
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: '$$mdi:gamepad$$', h: to}
   - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
   - {t: '''', s: '"'}
   - {t: '"', type: held}
   - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
-  Pad:
+  Fun:
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - $$mdi:mouse-scroll-wheel$$
-  - {type: none}
+  - F1
+  - F2
+  - F3
+  - F4
   - {type: none}
   - .
   - '7'
@@ -151,73 +151,28 @@ layers:
   - {type: none}
   - {type: none}
   - ESC
+  - {t: F5, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F6, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F7, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F8, h: '$$mdi:apple-keyboard-shift$$'}
   - {type: none}
-  - $$mdi:mouse-left-click$$
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-up$$'}
-  - $$mdi:mouse-right-click$$
-  - $$mdi:mouse-move-up$$
   - {type: none}
-  - '4'
-  - '5'
-  - '6'
-  - '*'
+  - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '5', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '6', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '*', h: '$$mdi:apple-keyboard-option$$'}
   - /
-  - {type: none}
-  - {type: none}
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left$$'}
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-down$$'}
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-right$$'}
-  - $$mdi:mouse-move-down$$
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - '='
-  - {t: Qwer, h: to}
-  - {type: none}
-  - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
-  - {t: ▽, type: trans}
-  - {type: none}
-  Fun:
-  - {type: none}
-  - F1
-  - F2
-  - F3
-  - F4
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - $$mdi:brightness-4$$
-  - $$mdi:brightness-5$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - ESC
-  - F5
-  - F6
-  - F7
-  - F8
-  - {type: none}
-  - {type: none}
-  - $$mdi:volume-mute$$
-  - $$mdi:volume-minus$$
-  - $$mdi:volume-plus$$
-  - {type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - F9
   - F10
   - F11
   - F12
   - {type: none}
-  - {type: none}
-  - $$mdi:play-pause$$
-  - $$mdi:skip-backward$$
-  - $$mdi:skip-forward$$
-  - {type: none}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '='
   - {t: Qwer, h: to}
   - {type: none}
   - {t: ▽, type: trans}
