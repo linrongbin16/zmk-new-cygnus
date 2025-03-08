@@ -6,9 +6,6 @@
 
 <img src="keymap-drawer/cygnus.svg" >
 
-1. For the "magic shift" key (on the left-bottom corner): **tap** is sticky shift, **double-tap** is capslock.
-2. For the "to gamepad" key (on the right-bottom corner): **tap** is to "Pad" layer, **double-tap** is to "Fun" layer.
-
 ## Acknowledgement
 
 - Forked from [tokyo2006/zmk-for-cygnus/36_oled](https://github.com/tokyo2006/zmk-for-cygnus/tree/36_oled).
