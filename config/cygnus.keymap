@@ -34,24 +34,13 @@
 
 &msc {
     acceleration-exponent = <0>;      // 0
-    time-to-max-speed-ms = <0>;       // 300
+    time-to-max-speed-ms = <100>;       // 300
     delay-ms = <0>;                   // 0
 };
 
 &mmv {
     time-to-max-speed-ms = <400>;
     acceleration-exponent = <1>;
-};
-
-&sk {
-    release-after-ms = <2000>;
-    quick-release;
-};
-
-&lt {
-    tapping-term-ms = <250>;
-    quick-tap-ms = <175>;
-    require-prior-idle-ms = <150>;
 };
 
 / {
@@ -173,17 +162,6 @@
     };
 
     behaviors {
-        ltq: ltq {
-            compatible = "zmk,behavior-hold-tap";
-            label = "Layer/Tap-Quick";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "hold-preferred";
-            bindings = <&mo>, <&kp>;
-
-            quick-tap-ms = <180>;
-        };
-
         as: auto_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "AUTO_SHIFT";
@@ -222,33 +200,6 @@
             flavor = "balanced";
             hold-trigger-key-positions = <15 16 17 18 0 1 2 3 4 5 19 31 30 29 28 27 26 14>;
             hold-trigger-on-release;
-        };
-
-        tomo: to_mo {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TO_MO";
-            bindings = <&mo>, <&mo>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <0>;
-        };
-
-        monum: mo_num {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MO_NUM";
-            #binding-cells = <0>;
-            bindings = <&tomo 1 1>, <&to 1>;
-
-            tapping-term-ms = <175>;
-        };
-
-        mosym: mo_sym {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MO_SYM";
-            #binding-cells = <0>;
-            bindings = <&tomo 2 2>, <&to 2>;
-
-            tapping-term-ms = <175>;
         };
 
         htmo: holdtap_mo {
