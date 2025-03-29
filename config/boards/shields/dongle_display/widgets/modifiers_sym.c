@@ -112,11 +112,11 @@ const lv_img_dsc_t alt_icon = {
   .data = alt_map,
 };
 
-#ifndef LV_ATTRIBUTE_IMG_GUI
-#define LV_ATTRIBUTE_IMG_GUI
+#ifndef LV_ATTRIBUTE_IMG_WIN
+#define LV_ATTRIBUTE_IMG_WIN
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_GUI uint8_t win_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_WIN uint8_t win_map[] = {
   0xff, 0xff, 0xff, 0xff, 	/*Color of index 0*/
   0x00, 0x00, 0x00, 0xff, 	/*Color of index 1*/
 
